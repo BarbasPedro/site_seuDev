@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 60px 16px 0 16px;
+  background-color: #fff;
+  color: rgb(44, 44, 44);
+  height: 200px;
+}
+
+header, h1, h2, h3, button {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+p, input, textarea {
+  font-family: 'Salsa', cursive;
+}
+
+.container{
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container h2 {
+  font-size: 3rem;
+}
+
+.container h3 {
+  font-size: 2rem;
+}
+header .container,
+#about .container{
+  justify-content: space-between;
+  display: flex;
+}
+
+header h1 {
+  font-size: 5rem;
+}
+
+header nav li{
+  display: inline;
+  margin-left: 16px;
+  font-size: 1.5rem;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: rgb(44, 44, 44);
+  font-size: 1.5rem;
+}
+
+header nav li a:hover {
+  cursor: pointer;
+  color: rgb(255, 179, 0);
+  background-color: black;
+  padding: 4px 8px;
+  border-radius: 15px;
+}
+
+body {
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(83, 83, 83) 100%);
+}
+
+.social-medias img {
+  height: 70px;
+  margin-right: 20px;
+  margin: 15px;
+}
+
+.social-links a,
+.social-medias a{
+  text-decoration: none;
+}
+
+.social-links img {
+  height:30px;
+  padding-right: 12px;
+  margin-top: 12px;
+}
+
+.social-medias li {
+  display: inline;
+}
+
+section {
+  padding: 24px 0;
+}
+
+#contact .container h2 {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+section p {
+  margin-bottom: 24px;
+}
+
+#siteGamesShop {
+  height: 500px;
+}
+
+.social-links li{
+  display: inline;
+}
+
+#contact .container {
+  display: block;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: center;
+}
+
+form input,
+form button,
+form textarea {
+  display: block;
+  width: 350px;
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 15px;
+  border: none;
+}
+
+textarea:focus,
+input:focus {
+  outline-style: solid;
+  outline-color: rgb(255, 179, 0);
+}
+
+button:hover {
+  cursor: pointer;
+  color: rgb(255, 179, 0);
+  background-color: black;
+}
+
+
+form textarea {
+  resize: none;
+  height: 180px;
+}
+
+footer {
+  text-align: center;
+}
